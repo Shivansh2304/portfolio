@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/media_query.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Header design section -->
+    <header>
+        <div class="header-nav-bar container flex">
+            <div class="logo"><h2> <button data-text="Awesome" class="button">
+                <span class="actual-text">&nbsp;Portfolio&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;portfolio&nbsp;</span></h2>
+            </button></div>
+            <nav class="nav-bar-items">
+                <a href="#home-container" id="home" class="active">Home</a>
+                <a href="#about-section" id="about">About</a>
+                <a href="#service-section" id=" services ">Skills</a>
+                <a href="#portfolio-div" id="portfolio">Projects</a>
+                <a href="#footer" id="">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Home design section -->
+    <main>
+        <section class="head-img-intro flex container" id=" home-container ">
+            <div class="intro-content">
+                <h3 class=" intro-start ">Hello, I'm</h3>
+                <h2 class=" intro-name ">
+                    <button data-text="Awesome" class="button">
+                    <!-- <span class="actual-text">&nbsp;S&nbsp;</span>
+                    <span class="hover-text" aria-hidden="true">&nbsp;s&nbsp;</span>-->
+                </button>Shivansh Singh</h2> 
+                <h3 class=" intro-last ">And I'm a
+                    <span class="profession role"></span>
+                </h3>
+                <p class=" intro-main ">
+                    I'm a Front-end Web developer and here is my portfolio website. Here you'll Know about me and my skills
+                </p>
+                <div class=" social-media ">
+                    <a target="_blank" href="https://github.com/Shivansh2304" class=" icons ">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/shivansh-singh-51584a198/" class=" icons ">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/shivansh_singh_18/" class="icons">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a target="_blank" href="https://leetcode.com/shivansh5551/" class="icons">
+                        <i class='bx bx-code' ></i>
+                    </a>
+                </div>
+                <div class="resume-links">
+                    <a href="./assets/shivansh_resume.pdf" download="./assets/shivansh_resume.pdf" class="cv-resume btn-cls">Download Resume</a>
+                </div>
+            </div>
+            <div class=" main-img ">
+                <img src=" ./assets/pic.jpg" alt=" ">
+            </div>
+        </section>
+
+        <!-- About section -->
+
+        <section class="section-about" id="">
+            <div class="container flex about-section" id="about-section">
+                <div class=" about-image ">
+                    <img src="./assets/rocket-removebg-preview.png " alt=" ">
+                </div>
+                <div class=" about-content ">
+                    <h3 class=" heading ">About <span class=" Me ">Me</span></h3>
+                    <h2 class=" profession ">Front-End developer</h2>
+                    <p class=" intro-about-me ">
+                        Hello, I'm Shivansh Singh from Prayagraj. Currently I'm persuing B.tech in Electrical Engineering (2019-23) from Rajkiya engineering College Sonbhadra. I have passion for Web development. 
+                        I have a strong foundation in C/C++ and have also gained expertise in technologies such as ReactJs, HTML, CSS, and JavaScript. Looking to leverage my skills and continue learning in a challenging and dynamic work environment.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+
+        <section class="service" id="service-section">
+            <div class="container">
+                <div class="heading">
+                    <h2>My <span class="Me">Skills</span></h2>
+                </div>
+                <div class="service-offfer flex">
+
+                    <div class="Web-development boxes-service">
+                        <div class="logo"><i class="fa-solid fa-code"></i>
+                            </i>
+                        </div>
+
+                        <div class="service-heading">
+                            <h3>Web Development</h3>
+                        </div>
+
+                        <p class="intro">I possess a strong foundation in HTML, CSS, and JavaScript, as well as extensive knowledge of Tailwind CSS, Bootstrap, and ReactJS.</p>
+
+                        <button class="btn-cls service-btn">Read More</button>
+                    </div>
+
+                    <div class="Python-development boxes-service">
+                        <div class="logo"> <i class="fa-brands fa-python"></i></div>
+
+                        <div class="service-heading">
+                            <h3>C / C++</h3>
+                        </div>
+
+                        <p class="intro">Solved more than 300 questions on leetcode covering various DSA Topics and participated in various coding contest on codechef</p>
+                        <button class="btn-cls service-btn">Read More</button>
+
+                    </div>
+
+                    <div class="MachineLearning boxes-service ">
+                        <div class="logo">
+                            <i class="fa-solid fa-brain-circuit"></i>
+                        </div>
+
+                        <div class="service-heading">
+                            <h3>Soft Skills</h3>
+                        </div>
+
+                        <p class="intro">Communication Skill, Problem Solving,
+                            Logical Thinking, Adaptability and
+                            Creativity
+                            </p>
+                        <button class="btn-cls service-btn">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project section -->
+
+    <section class="project portfolio" id="portfolio-section-id">
+        <div class="container" id="portfolio-div">
+            <h2 class="heading">My <span class="Me">Projects</span></h2>
+            <div class="project-container">
+
+                <div class="box-project">
+                        <img src="./assets/heighttracker.png" alt="" srcset="">
+                        <div class="info-layer flex-column">
+
+                            <h3>HeightTracker</h3>
+                            <p class="intro">• In this project worked on problem statement which people faces they
+                                can easily see how there height was increase in which year increment
+                                in their height is stop .
+                                • Implemented a robust height tracking system enabling users to input
+                                their height data and dynamically generate informative graphs for
+                                comprehensive analysis and visualization..
+                                • Technology used HTML ,CSS ,Javascript ,Vuejs,Chart.js. 
+                               
+                        </div>
+                </div>
+
+                <div class="box-project">
+                    <img src="./assets/gallery.png" alt="" srcset="">
+                    <div class="info-layer flex-column info-layer1">
+
+                        <h3>Gallery App</h3>
+                        <p class="intro">• I utilized HTML, CSS, and JavaScript to design and develop a visually
+                            appealing website.
+                            • In addition, I implemented an API to fetch images and integrate them
+                            seamlessly into the gallery.
+                            </p>
+                    </div>
+                </div>
+
+                <div class="box-project ">
+                    <img src="./assets/securenotes.png" alt="" srcset="">
+                    <div class="info-layer flex-column info-layer2">
+                        <h3>Secure Notes</h3>
+                        <p class="intro">In this project, I work on a problem statement. It is similar as notes
+                            with some modification.
+                            • We can secure our notes , password with the help of a Passport, JWT
+                            authentication created a Register and login page.
+                            • Technology used HTML ,CSS ,Javascript
+                            ,Vuejs,Nodejs,Express,MongoDB.</p>
+                    </div>
+                </div>
+                 
+                <div class="box-project ">
+                    <img src="./assets/skyfact.png" alt="" srcset="">
+                    <div class="info-layer flex-column info-layer2">
+                        <h3>Sky Facts</h3>
+                        <p class="intro">It a simple virtual learning app Here you can learn about the atmosphere. Technologies Used: Html, CSS and Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section id="footer" class="footer">
+            
+            <div class="foot-nav flex">
+                <div class=""><a href="https://leetcode.com/shivansh5551">Leetcode</a></div>
+                <div class=""><a href="https://www.codechef.com/users/shivansh5551">Codechef</a></div>
+                <div class=""><a href="https://auth.geeksforgeeks.org/user/shivanshsinghl96/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user">GeeksForGeeks</a></div>
+                <div class=""><a href="https://github.com/Shivansh2304">Github</a></div>
+            </div>
+            <div class="foot-social social-media">
+                <a target="_blank" href="mailto:shivanshsinghl96@gmail.com" class=" icons ">
+                    <i class='bx bx-envelope' ></i>
+                </a>
+                <a target="_blank" href="tel:+918416990822" class=" icons ">
+                    <i class='bx bxs-phone-call' ></i>
+                </a>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=918416990822&text&type=phone_number&app_absent=0" class=" icons ">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/shivansh-singh-51584a198/" class=" icons ">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a target="_blank" href="www.instagram.com" class=" icons ">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+            <div class="copyright">
+                Created by <a href="https://www.linkedin.com/in/shivansh-singh-51584a198/"> <span class="cop">Shivansh Singh</span> </a>| all rights reserved
+
+                </span>
+            </div>
+            
+            
+    </section>
+    <!-- <div class="script-4-header"></div> -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData =new Typed(".role",{
+        strings: [
+            "Full Stack Developer",
+            "web Developer",
+            "Front-end Developer",
+        ],
+        loop: true,
+        typeSpeed:100,
+        backSpeed: 80,
+        backDelay: 1000,
+    });
+    </script>
+    
+</body>
+
+</html>
